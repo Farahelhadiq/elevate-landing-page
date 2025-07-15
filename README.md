@@ -9,7 +9,7 @@ A modern and fully responsive landing page built with **HTML**, **Tailwind CSS**
 - Clean & professional UI
 
 ## 🖥️ Live Demo
-[Live Demo Here](https://elevate-business.netlify.app)
+[Live Demo Here](https://elevate-landing-page.netlify.app/)
 
 ## 📸 Screenshot
 
