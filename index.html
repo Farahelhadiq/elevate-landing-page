@@ -9,7 +9,38 @@
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1.2/dist/tailwind.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    
+<body class="bg-gray-50">
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-between items-center h-16">
+      <div class="flex items-center">
+        <div class="text-2xl font-bold text-blue-600">Elevate</div>
+      </div>
+      <div class="hidden md:flex items-center space-x-8">
+        <a href="#features" class="desktop-link text-gray-600 hover:text-gray-900 transition-colors">Features</a>
+        <a href="#about" class="desktop-link text-gray-600 hover:text-gray-900 transition-colors">About</a>
+        <a href="#contact" class="desktop-link text-gray-600 hover:text-gray-900 transition-colors">Contact</a>
+      </div>
+      <div class="md:hidden">
+        <button id="mobile-menu-btn" class="text-gray-600 hover:text-gray-900">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu"
+    class="md:hidden overflow-hidden max-h-0 bg-white border-t transition-all duration-500 ease-in-out">
+    <div class="px-4 pt-4 pb-4 space-y-2">
+      <a href="#features" class="mobile-link block px-3 py-2 text-gray-600 hover:text-gray-900">Features</a>
+      <a href="#about" class="mobile-link block px-3 py-2 text-gray-600 hover:text-gray-900">About</a>
+      <a href="#contact" class="mobile-link block px-3 py-2 text-gray-600 hover:text-gray-900">Contact</a>
+    </div>
+  </div>
+</nav>
 </body>
 </html>
