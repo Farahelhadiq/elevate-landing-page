@@ -59,3 +59,16 @@ Elevate-Landing-Page/
 1. **Clone the repository**  
    ```bash
    git clone https://github.com/Farahelhadiq/elevate-landing-page.git
+   
+
+---
+
+<img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" width="20"/> Author
+Farah El Hadiq
+
+
+---
+
+
+<h4 align="center"> ⭐ If you like this project, don't forget to star the repository! ⭐ </h4> 
+
